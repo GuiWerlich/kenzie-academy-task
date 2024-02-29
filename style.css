@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.main-title{
+    text-align: center;
+}
+
+span {
+    color: blue;
+}
+
+a {
+    color: blue;
+}
+
+section {
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+}
+
+li {
+    text-decoration: underline; /* se for apenas estilização usar esse ao inves do u direto no html*/
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer p{
+    margin: 0;/*zerei a margin padrão do elemento para conseguir manipula-lo melhor. posso sempre usar o reset quando eu quiser estilizar de uma forma mais livre evitando que o codigo quebre em algum ponto*/
+}
