@@ -1,0 +1,16 @@
+.first-section {
+    width: 800px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+
+.second-section { /* Usar o % torna o site responsivo!!!!!*/
+    margin-top: 5px;
+    width: 99%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}

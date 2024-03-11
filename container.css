@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}

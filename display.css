@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+.exemple {
+    color: white;
+}
+
+.exemple-item {
+    display: inline-block; /* usando esse atributo consigo manipular todas as dimensoes de um elemento que anteriormente seria apenas linhas*/
+    width: 500px;
+    height: 250px;
+    margin: 3px;
+}
+
+.exemple-item_first {
+    background-color: orange;
+}
+
+.exemple-item_second {
+    background-color: greenyellow;
+}
+
+.exemple-item_third {
+    background-color: blue;
+}
+
+/* 
+in-line: sempre fica um do lado do outro com o mesmo tamanho;
+block: sempre fica um embaixo do outro e ocupam toda a largura da tela;
+inline-block: pode se ajustar a altura e a largura
+
+*/
